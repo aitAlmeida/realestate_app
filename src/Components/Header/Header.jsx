@@ -61,9 +61,16 @@ const Header = () => {
                     <img className='home-header-content-gif-part-gif' src={home1} alt=''/>
                 </div>
                 <div className='home-header-content-select-and-others'>
-                    <img className='vectorApp vector1' src=''/>
-                    <img className='vectorApp vector2' src=''/>
-                    <img className='businessOrder' src=''/>
+                   <div className='home-header-content-select-1'>
+                   <div class="inputForm-footer">
+                            <div>
+                                <input type="text" placeholder="home/villa/hotel..." name="" required="" class="required email" id="mce-EMAIL" />
+                            </div>
+                            <button class="subscribe-button-footer" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                <i className='bi bi-search'></i>
+                            </button>
+                    </div>
+                   </div>
                 </div>
             </div>
        </div>

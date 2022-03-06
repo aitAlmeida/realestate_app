@@ -71,7 +71,7 @@
 
 }
 .footerLast{
-    font-weight: 400;
+    font-weight: 500;
     color: #292830;
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,8 @@
     transition: .2s;
 }
 .footerLast-social-icon:hover{
-    box-shadow: 0 0 8px rgb(247, 135, 135);
+    box-shadow: 0 0 8px rgb(39, 36, 36);
+    
   }
   .subtext{
     font:20px Helvetica,Arial,sans-serif;
