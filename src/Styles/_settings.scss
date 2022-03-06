@@ -1,0 +1,796 @@
+/*Generale */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;700&display=swap');
+
+html,body{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+}
+.home{
+    font-family: 'Hind Siliguri', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar.navbar-dark .navbar-toggler{
+    border-color: #FFDD29;
+    background-color: #FFDD29;
+    box-shadow: none;
+}
+.page-logo{
+    background: url("");
+    background-position: center;
+    background-size: 100%;
+    width: 150px;
+    height: 45px;
+    background-repeat: no-repeat;background-position: center;
+    background-size: contain;
+  }
+/* #212529 */
+/* la liste css maison */
+.home-Trusted{
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.5vw;
+    line-height: 64px;
+    color: #202020;
+}
+.home-la-section-image-et-liste{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.home-le-text{
+    margin-bottom: 3vw;
+}
+.home-la-liste{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.home-element{
+    display: flex;
+    /*gap:30px !important;*/
+    margin-bottom: 2vw;
+    padding: 0 10px;
+
+}
+.home-element__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 42%;
+    padding: 0 12px;
+}
+.home-some-text{
+    font-weight: bold;
+    font-size: 21px;
+    /* or 162% */
+    color: #FFDD29;
+}
+.home-some-text-para{
+    font-size: 16px;
+    color: #7C8087;
+    text-align: flex-start;
+}
+.home-title-perfect{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    width: 100%;
+}
+/* ----------------- */
+/*Header*/
+.navbar{
+    padding: 10px 20px;
+    background: #202020;
+}
+
+/*
+.phone{
+    width: 100%;
+}
+*/
+.nav-item li{
+    word-wrap: none;
+}
+.links{
+    display: flex;
+}
+.navbar-brand .run{
+    color: #FFDD29;
+}
+/*
+.navbar-collapse{
+    justify-content: end;
+    margin: 0 !important;
+}*/
+/* .container-fluid__text{
+ margin: 0 10px;
+} */
+/*  
+.link-2{
+    margin-left: 15%;
+}*/
+.sign-up{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFDD29;
+}
+.home-signup2{
+    visibility: hidden;
+    display: none;
+}
+.home-get-started2{
+    background-color: #FFDD29 !important;
+    display: none;
+    visibility: hidden;
+}
+.get-flex-started{
+   font-size: 15px!important;
+   font-weight: 600;
+   padding: 5px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E5E5E5;
+}
+.home-header-content-main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 635px;
+    height: 464px;
+    left: 159px;
+    top: 150px;
+
+}
+.home-text-deliver{
+    /* Heading / H1 */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.home-para-deliver{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #E5E5E5;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.home-btn-sending-start{
+     /* Label / Large Label */
+     font-style: normal;
+     font-weight: bold;
+     font-size: 1.3vw;
+     line-height: 30px;
+     color: #202020;
+
+}
+.home-btn-start-sending{
+    width: 196px;
+    height: 62px;
+    border-radius: 8px;
+    left: calc(50% - 132px/2);
+    top: calc(50% - 30px/2);
+    text-align: center;
+    background: #FFDD29;
+    border: none;
+    padding-top: 15px;  
+}
+.home-btn-start-sending:hover{
+    background-color: #FFDD29;
+}
+
+.home-text-send{
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 54px;
+color: #202020;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.home-para-send{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #202020;
+text-align: justify;
+}
+.home-send-a-package{
+font-style: normal;
+font-weight: bold;
+font-size: 1.8vw;
+line-height: 30px;
+color: #FFDD29;
+margin: 8px 8px;
+text-decoration: none;
+display: block;
+}
+.home-send-a-package:hover{
+    color: #FFDD28;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+/*third section*/
+.home-section-3{
+width: 100%;
+background: #202020;
+padding: 30px;
+margin-bottom: 40px;
+
+}
+/*OUR PARTNER LOGO*/
+.home-brands {
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 70px;
+}
+ 
+.img-group-5{
+    position: relative;
+    margin-top: -55%;
+}
+.home-section-3-text-take{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+.home-section-3-cut{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 64px;
+    /* or 356% */
+    letter-spacing: -1px;
+    
+    color: #D8D8D8;
+    
+}
+.home-btn-get-free{
+background: #FFDD29;
+border: 1px solid #FFDD28;
+border-radius: 8px;
+font-weight: bold;
+font-size: 1.8vw;
+/* identical to box height, or 267% */
+letter-spacing: -1px;
+color: #202020;
+text-decoration: none;
+height: 79px;
+padding-left: 2em;
+padding-right: 2em;
+
+}
+.home-btn-get-free:hover{
+    background: #FFDD28;
+    font-size: 26px;
+}
+.home-Section-4{
+    background: #FFDD29;
+}
+.home-section-4-text-create{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    font-feature-settings: 'liga' off;
+    color: #202020;
+}
+.home-section-4-text-para{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #18191F;
+}
+.home-section-4-get-app{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #18191F;
+}
+.home-image-section4 {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-get-app{
+  width: 25%;
+}
+.home-get-app2{
+    width: 70%;
+  }
+/*FOOTER*/
+
+footer {
+    background: #0B0D17;
+    color: white;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  .footer-pad .footer-title{
+      color: #FFDD29;
+  }
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 6em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+
+
+
+
+/*MEDIA QUERIE*/
+
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 1161 pixels , alors faites */
+
+@media screen and (max-width:1161px){
+    .home-la-photo img{
+        width: 40vw;
+    }
+    .home-dev1{
+     margin-top: 0;
+    }
+    .home-text-deliver{
+        font-size: 6vw;
+    }
+    .home-send-a-package{
+        font-size: 3vw;
+    }
+    .home-btn-start-sending{
+      width: 150px;
+      height: 50px;
+      padding-top: 10px;
+  }
+  .home-btn-sending-start{
+      font-size: 18px;
+  }
+  .home-get-started2{
+      display: none;
+      visibility: hidden;
+  }
+ }
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 991 pixels , alors faites */
+ @media only screen and (max-width: 991px){
+    
+    .home-header-content-main{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      width: auto;
+      height: 464px;
+      left: 70px;
+      top: 150px;
+  
+  }
+  
+  .home-send-a-package{
+      font-size: 3vw;
+  }
+  .home-btn-sending-start{
+      /* Label / Large Label */
+      font-size: 1.8vw;
+      padding-top: 15px;  
+
+ }
+ 
+ 
+ .navbar-collapse{
+     display: block;
+ }
+ 
+ .navbar.navbar-dark .navbar-nav .nav-item .nav-link{   
+     font-size: 14px !important;
+     line-height: 30px !important;
+ }
+ .home-signup{
+    display: none !important;
+ }
+ .home-signup2{
+     visibility: visible;
+     font-style: normal !important;
+     font-weight: bold !important;
+     font-size: 14px !important;
+     line-height: 20px !important;
+     color: #FFDD29 !important;
+ }
+ .home-get-started{
+     display: none !important;
+ }
+ 
+ .home-get-started2{
+     position: relative;
+     margin-left: 60vw;
+     display: block;
+     visibility: visible;
+     /*width: 95px;*/
+     height: 32.84px;
+     background: #FFDD29 !important;
+     color: #202020;
+     border-radius: 5px;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     padding: 10px;
+     line-height: 10px;
+     
+ }
+ 
+ .home-get-app{
+    width: 38%;
+  }
+}
+@media only screen and (max-width: 894px){
+    .home-get-started2{
+        margin-left: 55vw;
+    }
+}
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 962 pixels , alors faites */
+@media screen and (max-width:962px){
+   
+    .home-la-section-image-et-liste{
+            flex-direction: column;
+            align-items: center;
+    }
+    .home-element__text{
+        width: 90%;
+    }
+    .home-element__text h4{
+        font-size: 3vw;
+        }
+        .home-le-text h3{
+            font-size: 7vw;
+        }
+    .home-element{
+        width: 100%;
+    }
+    
+    .home-header-content-main{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      width: auto;
+      height: 464px;
+      left: 70px;
+      top: 150px;
+  
+  }
+  .home-text-deliver{
+      font-size: 8vw;
+  }
+  .home-send-a-package{
+      font-size: 3vw;
+  }
+  .home-btn-start-sending{
+    width: 130px;
+    height: 50px;
+}
+.home-btn-sending-start{
+    font-size: 15px;
+    padding-top: 15px;  
+}
+.home-get-started2{
+    margin-left: 55vw;
+}
+ 
+}
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 767 pixels , alors faites */
+@media screen and (max-width: 767px){
+    .home-row-sec-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  .home-header-content-main{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      width: auto;
+      height: 464px;
+      left: 70px;
+      top: 150px;
+  
+  }
+  .home-text-deliver{
+      font-size: 8vw;
+  }
+  .home-send-a-package{
+    font-size: 18px;
+}
+    .home-send-a-package:hover{
+    font-size: 21px;
+  }
+
+  .home-btn-get-free{
+      font-size: 3.5vw;
+  }
+  .home-get-started2{
+      margin-left: 50vw;
+  }
+  .home-image-section4{
+      display: none;
+  }
+}
+@media only screen and (max-width: 720px){
+    .home-get-started2{
+        margin-left: 45vw;
+    }
+}
+@media only screen and (max-width: 690px){
+    .home-get-started2{
+        margin-left: 35vw;
+    }
+    .page-logo{
+        position: relative;
+        top: -5px;
+        width: 120px !important;
+    }
+}
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 562 pixels , alors faites */
+@media screen and (max-width:562px){
+    
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-row-sec-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home-dev1{
+        margin-top: 0;
+    }
+    .home-header-content-main{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: auto;
+        height: 464px;
+        left: 40px;
+        top: 150px;
+    
+    }
+    .home-text-deliver{
+        font-size: 11vw;
+    }
+    
+    .home-get-started2{
+        margin-left: 22vw;
+        width: auto;
+    }
+
+    .get-app2{
+        width: 35%;
+      }
+}
+
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 552 pixels , alors faites */
+@media screen and (max-width:522px){
+    .home-btn-get-free{
+        font-size: 4.3vw;
+    }
+      .home-row-sec-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home-header-content-main{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: auto;
+        height: 464px;
+        left: 40px;
+        top: 150px;
+    
+    }
+    .home-text-deliver{
+        font-size: 11vw;
+    }
+    
+}
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 500 pixels , alors faites */
+@media screen and  (max-width: 500px) {
+    .home-header-content-main{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: auto;
+        height: 464px;
+        left: 40px;
+        top: 150px;
+    
+    }
+    .home-text-deliver{
+        font-size: 8vw;
+    }
+   
+    .home-btn-start-sending{
+        width: 130px;
+        height: 50px;
+    }
+    .home-btn-sending-start{
+        font-size: 15px;
+        padding-top: 15px;  
+    }
+    
+  
+}
+/*Ce que signifie réellement cette requête, c'est "Si [largeur de l'appareil] est inferieure ou égale à 378 pixels , alors faites */
+
+  /* Small devices (landscape phones, 576px and up)*/
+  @media screen and (max-width:378px){
+    .home-header-content-main{
+        width: auto;
+    }
+    
+      .navbar{
+        padding: 10px 0px !important;
+      }
+      .home-row-sec-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home-btn-start-sending{
+        width: 130px;
+        height: 50px;
+    }
+    .home-btn-sending-start{
+        font-size: 15px;
+        padding-top: 15px;  
+    }
+    .home-get-started2{
+        margin-left: 15vw;
+    }
+  }
+
+@media only screen and (max-width:320px){
+    .home-get-started2{
+        width: 65px;
+        height: 25px;
+        font-size: 8px;
+        padding: 10px;
+        line-height: 5px;
+        margin-left: 10vw;
+    }
+}
+
