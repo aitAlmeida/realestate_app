@@ -28,6 +28,22 @@ const Text = () => {
     </div>
 </div>
 
+<div>
+    <div class="fully-part paddingHomeCenter">
+        <div class="fully-part-text-content">
+            <div class="blancFake"></div>
+            <div class="fully-partBIG">
+                <p class="bigType-text-affordable bigType-text-affordable-fully">Fully Automated</p>
+                <p class="bigType-text-affordable bigType-text-affordable-fully">Last-mile</p>
+            </div>
+            <p class="smallType-text-affordable smallType-text-affordable-long smallType-text-fully-long">
+                We automatically fulfill your orders for you in Shopify, and notify you &amp; your customer each step of the way via SMS &amp; email.
+            </p>
+        </div>
+    </div>
+</div>
+
+
         </>
     );
 };
