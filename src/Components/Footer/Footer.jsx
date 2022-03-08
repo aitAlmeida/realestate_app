@@ -2,13 +2,15 @@ import React from 'react';
 import facebook from '../../Images/facebook.svg';
 import instagram from '../../Images/instagram.svg';
 import twitter from '../../Images/twitter.svg';
+import logo from '../../Images/image1.png';
+
 
 const Footer = () => {
     return (
         <div class="footerHome">
     <div class="footer-Container-home">
         <div class="footer-Container-home-element">
-            <div class="logoHome"><img src="/static/media/Logo H Transparent 1.a80fb5c2.svg" alt="" /></div>
+            <div class="logoHome"><img src={logo} width="150" alt="" /></div>
             <div class="linkfooter-home">
                 <div class="Title-footer-home">LINKS</div>
                 <div class="linksTitle-footer-home">
