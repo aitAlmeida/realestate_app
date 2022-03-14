@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../Images/image1.png';
 import home1 from '../../Images/home1.png';
+import { Link } from 'react-bootstrap-icons';
 
 const Header = () => {
     return (
@@ -32,7 +33,7 @@ const Header = () => {
                         </div>
                         <div className='my-bg-yellow get-started-btn'>
                             <li>
-                                <a className='' href=''>started</a>
+                                <Link className='' href='#'>started</Link>
                             </li>
                         </div>
                     </div>

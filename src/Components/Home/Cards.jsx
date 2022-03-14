@@ -24,6 +24,7 @@ const Cards = () => {
                 <p class="Oncard-small-text">Coming soon!</p>
                 <div class="arrowBlack-card"><img src="" alt="" /></div>
             </a>
+            
         </div>
     </div>
     
